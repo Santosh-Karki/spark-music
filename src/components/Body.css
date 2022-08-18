@@ -1,0 +1,234 @@
+
+.head{
+    text-align: center;
+    font-family: optima;
+    font-weight: bold;
+
+  }
+
+  .header{
+    text-align: center;
+    border: solid black;
+   background-color: black;
+   color: white;
+   margin-bottom: 30px;
+   
+  }
+
+  .description{
+    font-size: 16px;
+    font-family: optima;
+    padding: 20px 30px 20px 30px;
+
+  }
+
+  .link{
+    font-size: 60px;
+    position:absolute;
+    top: 65%;
+    right: 80%;
+
+  }
+
+  .spark{
+    padding-top: 30px;
+
+  }
+
+  .meet{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-self: center;
+    margin-top: 10px;
+    text-align:justify;
+    justify-content: center;
+    font-family: optima;
+   
+}
+
+.artist{
+    border: none;
+    display: flex;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.col{
+    margin: 0px 70px 0px 70px;
+}
+
+.photo{
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.name{
+    text-align:center;
+    font-family: optima;
+    
+}
+
+
+.bio{
+    text-align:justify;
+}
+
+.contain {
+   display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-top: 10px;
+    max-width: auto;
+    justify-content: center;
+    color: white;
+    background-color: black;
+
+  }
+  .textarea {
+    resize: none;
+  }
+
+
+
+
+  .meet1, .newsletter{
+    width:400px;
+    height: auto;
+    margin: 100px 0px 100px 50px;
+    
+}
+
+
+.newsletter{
+    margin-left: 100px;
+    padding: 20px 50px 20px 50px;
+    margin-top:70px;
+    box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+  .youtube{
+    width: 500px;
+    height: auto;
+      
+ 
+  }
+  .youtube-container{
+    align-self: center;
+    margin: 50px 0px 50px 0px;
+   
+
+  }
+
+  .box{
+    align-self: center;
+    margin-left: 100px;
+
+  }
+  
+
+
+
+  @media (max-width: 800px) {
+    .contain {
+      flex-direction: column;
+      justify-content: center;
+      
+    }  
+
+    .meet1,.newsletter{
+      display: block;
+      margin: auto;
+    
+   }
+
+   .meet {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 50px 0px;
+    
+  }  
+  .image{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+
+  }
+
+  .image1{
+    width: 550px;
+  }
+
+  
+}
+
+@media (max-width: 2000px) {
+  .stream-block {
+    position: absolute;
+  left: 0;
+  right: 0;
+  top: 85%;
+ 
+  margin: 0 auto;
+    
+   
+    
+    
+  }
+}
+
+.image{
+  margin: auto;
+  width: 60%;
+  height: 700px;
+  display: flex;
+  text-align: center;
+}
+
+
+
+
+.image1{
+  object-fit: contain;
+  height: 700px;
+  max-width: 900px;
+
+}
+
+.stream-block {
+  position: absolute;
+  bottom: 100px;
+  background-color: #373636;
+  color: white;
+  width: 550px;
+  height: 100px;
+  padding: 15px 10px 10px 10px;
+  font-weight: bolder;
+ 
+}
+
+.stream{
+  color: white;
+  font-size: 20px;
+  background-color: #373636;
+  border: 1px solid white;
+  width: 200px;
+ 
+  box-shadow: 2px 2px  #888888;
+}
+
+.stream:hover{
+  opacity: 0.5 #888888;
+  background-color: #373636;
+  border: 1px solid #373636;
+  
+}
+
+
+ 
